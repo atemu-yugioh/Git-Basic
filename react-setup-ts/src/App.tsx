@@ -1,11 +1,12 @@
 import './App.css'
-import { ForwardRefComponent } from './component/forwardRef/ForwardRefComponent'
+import Counter from './component/useReducer/Counter'
 
 function App() {
   return (
     <div className='App'>
       {/* <RefComponent/> */}
-      <ForwardRefComponent />
+      {/* <ForwardRefComponent /> */}
+      <Counter />
     </div>
   )
 }
