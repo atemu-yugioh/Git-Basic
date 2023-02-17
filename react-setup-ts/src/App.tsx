@@ -1,12 +1,16 @@
 import './App.css'
-import Counter from './component/useReducer/Counter'
+import { MyApp } from './component/useContext/MyApp'
+import Theme from './component/useContext/Theme'
 
 function App() {
   return (
     <div className='App'>
       {/* <RefComponent/> */}
       {/* <ForwardRefComponent /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Theme>
+        <MyApp />
+      </Theme>
     </div>
   )
 }
