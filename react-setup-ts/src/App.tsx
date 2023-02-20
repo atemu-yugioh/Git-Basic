@@ -1,6 +1,5 @@
 import './App.css'
-import { MyApp } from './component/useContext/MyApp'
-import Theme from './component/useContext/Theme'
+import RenderProps from './component/renderProps/RenderProps'
 
 function App() {
   return (
@@ -8,9 +7,10 @@ function App() {
       {/* <RefComponent/> */}
       {/* <ForwardRefComponent /> */}
       {/* <Counter /> */}
-      <Theme>
+      {/* <Theme>
         <MyApp />
-      </Theme>
+      </Theme> */}
+      <RenderProps />
     </div>
   )
 }
