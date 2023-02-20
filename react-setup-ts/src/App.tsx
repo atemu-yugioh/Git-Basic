@@ -1,5 +1,5 @@
 import './App.css'
-import RenderProps from './component/renderProps/RenderProps'
+import MultipleTheme from './component/multipleTheme/MultipleTheme'
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       {/* <Theme>
         <MyApp />
       </Theme> */}
-      <RenderProps />
+      {/* <RenderProps /> */}
+      <MultipleTheme />
     </div>
   )
 }
